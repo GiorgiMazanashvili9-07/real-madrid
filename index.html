@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Madrid C.F. | Rey de Europa — Official Themed Experience</title>
+  <meta name="description" content="Official Real Madrid CF themed web portal featuring 15 Champions League achievements, legendary players, iconic history timeline, upcoming fixtures, and interactive Madridista fan zone.">
+  <meta name="keywords" content="Real Madrid, Real Madrid CF, Champions League, La Liga, Santiago Bernabeu, Cristiano Ronaldo, Zidane, Di Stefano, Modric, Hala Madrid">
+  <meta name="theme-color" content="#ffffff">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP NAVIGATION BAR
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#home" class="brand-logo" aria-label="Real Madrid Home">
+        <div class="crest-icon-wrap">
+          <!-- Real Madrid Crest Official Vector / Image -->
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" 
+               alt="Real Madrid C.F. Crest" 
+               class="crest-img"
+               onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%23d4af37\'/><circle cx=\'50\' cy=\'50\' r=\'40\' fill=\'%23ffffff\'/><text x=\'50\' y=\'58\' font-size=\'32\' font-weight=\'bold\' fill=\'%230a0b0e\' text-anchor=\'middle\'>RM</text></svg>';">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">REAL MADRID</span>
+          <span class="brand-subtitle">Rey de Europa • 1902</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#legends" class="nav-link">Legends</a></li>
+          <li><a href="#history" class="nav-link">History</a></li>
+          <li><a href="#fixtures" class="nav-link">Fixtures</a></li>
+          <li><a href="#fanzone" class="nav-link">Fan Zone</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Interactive Anthem Fanfare Button -->
+        <button class="btn-anthem" id="anthemNavBtn" title="Play Real Madrid Anthem Fanfare">
+          <span class="anthem-waves">
+            <span></span><span></span><span></span>
+          </span>
+          <span class="anthem-label">Anthem Fanfare</span>
+        </button>
+
+        <!-- Theme Switcher (White Classic vs Floodlight Night Mode) -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" title="Switch Theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       HERO SECTION (HOME)
+       ======================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-crown-glow"></div>
+    
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Left Hero Content -->
+        <div class="hero-content">
+          <div class="hero-badge-pill">
+            <svg class="gold-star-icon" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            <span class="hero-badge-text">15-TIME KINGS OF EUROPE • 122+ YEARS OF GLORY</span>
+          </div>
+
+          <h1 class="hero-title">
+            ¡Hala Madrid!
+            <span class="quote-sub">...y nada más</span>
+          </h1>
+
+          <p class="hero-description">
+            Welcome to the sanctuary of the world's most decorated football club. Explore 15 European crowns, eternal football legends, unmatched history, and the relentless pursuit of royal glory.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#achievements" class="btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                <path d="M4 22h16"></path>
+                <path d="M10 14.66V17c0 .55-.45 1-1 1H7v4h10v-4h-2c-.55 0-1-.45-1-1v-2.34"></path>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+              </svg>
+              Explore Trophy Cabinet
+            </a>
+            
+            <a href="#fixtures" class="btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              Upcoming Matches
+            </a>
+          </div>
+
+          <!-- Hero Quick Stats Counter -->
+          <div class="hero-stats-row">
+            <div class="hero-stat-item">
+              <div class="hero-stat-number">15<span>★</span></div>
+              <div class="hero-stat-label">European Cups</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="hero-stat-number">36<span>🏆</span></div>
+              <div class="hero-stat-label">La Liga Titles</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="hero-stat-number">8<span>🌍</span></div>
+              <div class="hero-stat-label">World Titles</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="hero-stat-number">103<span>+</span></div>
+              <div class="hero-stat-label">Total Trophies</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Card -->
+        <div class="hero-visual-container">
+          <div class="hero-showcase-card">
+            <!-- Santiago Bernabéu Spotlight Banner -->
+            <div class="hero-stadium-banner">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Santiago_Bernabeu_stadium_at_night.jpg" 
+                   alt="Estadio Santiago Bernabéu at Night" 
+                   class="hero-stadium-img"
+                   onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/e/e0/Santiago_Bernabeu_Stadium.jpg';">
+              <div class="stadium-banner-overlay">
+                <span class="stadium-tag">The Royal Temple</span>
+                <span class="stadium-name">Estadio Santiago Bernabéu</span>
+              </div>
+            </div>
+
+            <!-- Next Match Live Countdown Widget -->
+            <div class="marquee-match-box">
+              <div class="match-box-header">
+                <span class="match-badge-comp">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                  </svg>
+                  La Liga • El Clásico
+                </span>
+                <span class="live-indicator">
+                  <span class="live-pulse"></span>
+                  COUNTDOWN
+                </span>
+              </div>
+
+              <div class="match-versus-row">
+                <div class="team-col home">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="team-crest-sm">
+                  <span class="team-name-sm">Real Madrid</span>
+                </div>
+                <div class="versus-badge">VS</div>
+                <div class="team-col away">
+                  <span class="team-name-sm">FC Barcelona</span>
+                  <img src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="FC Barcelona" class="team-crest-sm" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FC_Barcelona_%28crest%29.svg/100px-FC_Barcelona_%28crest%29.svg.png';">
+                </div>
+              </div>
+
+              <!-- Real-time Countdown Timer -->
+              <div class="countdown-clock">
+                <div class="countdown-unit">
+                  <div class="countdown-num" id="countDays">03</div>
+                  <div class="countdown-lbl">Days</div>
+                </div>
+                <div class="countdown-unit">
+                  <div class="countdown-num" id="countHours">16</div>
+                  <div class="countdown-lbl">Hours</div>
+                </div>
+                <div class="countdown-unit">
+                  <div class="countdown-num" id="countMins">35</div>
+                  <div class="countdown-lbl">Mins</div>
+                </div>
+                <div class="countdown-unit">
+                  <div class="countdown-num" id="countSecs">48</div>
+                  <div class="countdown-lbl">Secs</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Badge -->
+            <div class="floating-trophy-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                <path d="M4 22h16"></path>
+                <path d="M10 14.66V17c0 .55-.45 1-1 1H7v4h10v-4h-2c-.55 0-1-.45-1-1v-2.34"></path>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+              </svg>
+              <span>La Decimoquinta Champions 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       ACHIEVEMENTS SHOWCASE (ROYAL TROPHY ROOM)
+       ======================================================================== -->
+  <section class="achievements-section" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          The Royal Trophy Room
+        </span>
+        <h2 class="section-title">Palmarés of <span class="gold-accent">Unmatched Greatness</span></h2>
+        <p class="section-desc">
+          No club in history has shaped European and world football like Real Madrid CF. Click any trophy to inspect the historic victories, dates, and final records.
+        </p>
+      </div>
+
+      <!-- Trophy Category Filters -->
+      <div class="trophy-filter-nav">
+        <button class="filter-btn trophy-filter-btn active" data-filter="all">All Trophies</button>
+        <button class="filter-btn trophy-filter-btn" data-filter="continental">Continental Glories</button>
+        <button class="filter-btn trophy-filter-btn" data-filter="domestic">Domestic Supremacy</button>
+        <button class="filter-btn trophy-filter-btn" data-filter="worldwide">Worldwide Honors</button>
+      </div>
+
+      <!-- Trophies Grid -->
+      <div class="trophies-grid" id="trophiesGrid">
+        <!-- 1. UEFA Champions League -->
+        <div class="trophy-card" data-category="continental" data-trophy-id="ucl">
+          <div class="trophy-icon-frame">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+              <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+              <path d="M4 22h16"></path>
+              <path d="M10 14.66V17c0 .55-.45 1-1 1H7v4h10v-4h-2c-.55 0-1-.45-1-1v-2.34"></path>
+              <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+            </svg>
+          </div>
+          <div class="trophy-count-badge">15</div>
+          <h3 class="trophy-name">UEFA Champions League</h3>
+          <span class="trophy-category">European Cup • Absolute Record</span>
+          <p class="trophy-brief">
+            From the pioneering 1956 inaugural title to the 2024 triumph at Wembley, Real Madrid reigns supreme with more than double the titles of any other club.
+          </p>
+          <span class="trophy-view-btn">Inspect Finals →</span>
+        </div>
+
+        <!-- 2. La Liga -->
+        <div class="trophy-card" data-category="domestic" data-trophy-id="laliga">
+          <div class="trophy-icon-frame">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+          </div>
+          <div class="trophy-count-badge">36</div>
+          <h3 class="trophy-name">La Liga Championships</h3>
+          <span class="trophy-category">Spanish Primera División Record</span>
+          <p class="trophy-brief">
+            The undisputed benchmark in Spanish football history. Dominating Spain across 9 decades with relentless consistency.
+          </p>
+          <span class="trophy-view-btn">Inspect Seasons →</span>
+        </div>
+
+        <!-- 3. Copa del Rey -->
+        <div class="trophy-card" data-category="domestic" data-trophy-id="copadelrey">
+          <div class="trophy-icon-frame">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M8 21h8"></path>
+              <path d="M12 17v4"></path>
+              <path d="M7 4h10"></path>
+              <path d="M17 4v8a5 5 0 0 1-10 0V4"></path>
+            </svg>
+          </div>
+          <div class="trophy-count-badge">20</div>
+          <h3 class="trophy-name">Copa del Rey</h3>
+          <span class="trophy-category">Spanish National Cup</span>
+          <p class="trophy-brief">
+            The oldest tournament in Spain. Famous for thrilling Clásico finals, including Bale's legendary sprint and Ronaldo's towering header.
+          </p>
+          <span class="trophy-view-btn">Inspect Cups →</span>
+        </div>
+
+        <!-- 4. FIFA Club World Cup & Intercontinental -->
+        <div class="trophy-card" data-category="worldwide" data-trophy-id="worldcup">
+          <div class="trophy-icon-frame">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </div>
+          <div class="trophy-count-badge">8</div>
+          <h3 class="trophy-name">World Championships</h3>
+          <span class="trophy-category">5 Club World Cups + 3 Intercontinental</span>
+          <p class="trophy-brief">
+            Crowned world champions across four continents, defeating the best club champions of South America, Asia, and Africa.
+          </p>
+          <span class="trophy-view-btn">Inspect Trophies →</span>
+        </div>
+
+        <!-- 5. UEFA Super Cup -->
+        <div class="trophy-card" data-category="continental" data-trophy-id="supercup">
+          <div class="trophy-icon-frame">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </div>
+          <div class="trophy-count-badge">6</div>
+          <h3 class="trophy-name">UEFA Super Cup</h3>
+          <span class="trophy-category">Outright European Record</span>
+          <p class="trophy-brief">
+            Real Madrid became the sole European club to win 6 UEFA Super Cups after their Warsaw 2024 victory with Mbappé scoring on debut.
+          </p>
+          <span class="trophy-view-btn">Inspect Records →</span>
+        </div>
+
+        <!-- 6. Supercopa de España -->
+        <div class="trophy-card" data-category="domestic" data-trophy-id="supercopa">
+          <div class="trophy-icon-frame">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+          </div>
+          <div class="trophy-count-badge">13</div>
+          <h3 class="trophy-name">Supercopa de España</h3>
+          <span class="trophy-category">Spanish Super Cup</span>
+          <p class="trophy-brief">
+            Electrifying triumphs pitting Spain's champions against the cup winners, punctuated by memorable Clásico thrashings.
+          </p>
+          <span class="trophy-view-btn">Inspect Finals →</span>
+        </div>
+      </div>
+
+      <!-- FIFA Club of the Century Highlight Banner -->
+      <div class="century-club-banner">
+        <div class="century-crest-gold">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"></path>
+          </svg>
+        </div>
+        <div class="century-info">
+          <h3 class="century-info-title">FIFA Best Club of the 20th Century</h3>
+          <p class="century-info-desc">
+            The only club in football history ever officially bestowed with this singular honor by FIFA. Real Madrid won the worldwide ballot with a landslide 42.35% of the total vote.
+          </p>
+        </div>
+        <div class="century-action">
+          <span class="century-pill">Sole Recipient in History</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       LEGENDS HALL OF FAME
+       ======================================================================== -->
+  <section class="legends-section" id="legends">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"></path>
+          </svg>
+          The Pantheon of Giants
+        </span>
+        <h2 class="section-title">Eternal <span class="gold-accent">Madridista Legends</span></h2>
+        <p class="section-desc">
+          Those who wore the white shirt and etched their names in the constellations of football immortality.
+        </p>
+      </div>
+
+      <!-- Filter & Search Controls -->
+      <div class="legends-control-bar">
+        <div class="legends-filter-pills">
+          <button class="filter-btn legend-filter-btn active" data-pos="all">All Icons</button>
+          <button class="filter-btn legend-filter-btn" data-pos="forward">Forwards</button>
+          <button class="filter-btn legend-filter-btn" data-pos="midfielder">Midfielders</button>
+          <button class="filter-btn legend-filter-btn" data-pos="defender">Defenders</button>
+          <button class="filter-btn legend-filter-btn" data-pos="goalkeeper">Goalkeepers</button>
+        </div>
+
+        <div class="legend-search-box">
+          <svg class="legend-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="legendSearchInput" class="legend-search-input" placeholder="Search legend by name or era...">
+        </div>
+      </div>
+
+      <!-- Legends Grid -->
+      <div class="legends-grid" id="legendsGrid">
+        <!-- 1. Cristiano Ronaldo -->
+        <div class="legend-card" data-position="forward" data-legend-id="cr7">
+          <div class="legend-card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo" class="legend-avatar-img">
+            <div class="legend-card-gradient">
+              <span class="legend-role-badge">Forward • #7</span>
+              <h3 class="legend-card-name">Cristiano Ronaldo</h3>
+              <span class="legend-card-era">2009 – 2018</span>
+            </div>
+          </div>
+          <div class="legend-card-body">
+            <div class="legend-stats-strip">
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">450</div>
+                <div class="legend-stat-lbl">Goals</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">438</div>
+                <div class="legend-stat-lbl">Matches</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">4x</div>
+                <div class="legend-stat-lbl">UCL Titles</div>
+              </div>
+            </div>
+            <p class="legend-snippet">
+              All-time top goalscorer in Real Madrid history. Averaged over 1.02 goals per match and led the historic Champions League Three-Peat.
+            </p>
+            <div class="legend-card-footer">
+              <div class="legend-trophy-summary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                16 Titles (4 Ballons d'Or)
+              </div>
+              <span class="legend-read-more">View Profile →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Alfredo Di Stéfano -->
+        <div class="legend-card" data-position="forward" data-legend-id="distefano">
+          <div class="legend-card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Di_stefano_1959.jpg" alt="Alfredo Di Stéfano" class="legend-avatar-img">
+            <div class="legend-card-gradient">
+              <span class="legend-role-badge">Forward • "La Saeta Rubia"</span>
+              <h3 class="legend-card-name">Alfredo Di Stéfano</h3>
+              <span class="legend-card-era">1953 – 1964</span>
+            </div>
+          </div>
+          <div class="legend-card-body">
+            <div class="legend-stats-strip">
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">308</div>
+                <div class="legend-stat-lbl">Goals</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">396</div>
+                <div class="legend-stat-lbl">Matches</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">5x</div>
+                <div class="legend-stat-lbl">UCL Titles</div>
+              </div>
+            </div>
+            <p class="legend-snippet">
+              The founding father of Madrid's global reign. Scored in five consecutive European Cup finals. Sole winner of the Super Ballon d'Or.
+            </p>
+            <div class="legend-card-footer">
+              <div class="legend-trophy-summary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                17 Major Titles
+              </div>
+              <span class="legend-read-more">View Profile →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Zinedine Zidane -->
+        <div class="legend-card" data-position="midfielder" data-legend-id="zidane">
+          <div class="legend-card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg" alt="Zinedine Zidane" class="legend-avatar-img">
+            <div class="legend-card-gradient">
+              <span class="legend-role-badge">Midfielder & Manager • #5</span>
+              <h3 class="legend-card-name">Zinedine Zidane</h3>
+              <span class="legend-card-era">2001 – 2006 | 2016 – 2021</span>
+            </div>
+          </div>
+          <div class="legend-card-body">
+            <div class="legend-stats-strip">
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">227</div>
+                <div class="legend-stat-lbl">Matches</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">4x</div>
+                <div class="legend-stat-lbl">Total UCLs</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">3x</div>
+                <div class="legend-stat-lbl">Coach UCLs</div>
+              </div>
+            </div>
+            <p class="legend-snippet">
+              Author of the greatest volley in Champions League history in 2002. Later achieved football history as coach with three consecutive UCLs.
+            </p>
+            <div class="legend-card-footer">
+              <div class="legend-trophy-summary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                17 Titles (Player & Coach)
+              </div>
+              <span class="legend-read-more">View Profile →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Raúl González -->
+        <div class="legend-card" data-position="forward" data-legend-id="raul">
+          <div class="legend-card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Ra%C3%BAl_Gonz%C3%A1lez_2011.jpg" alt="Raúl González" class="legend-avatar-img">
+            <div class="legend-card-gradient">
+              <span class="legend-role-badge">Forward • "El Capitán"</span>
+              <h3 class="legend-card-name">Raúl González</h3>
+              <span class="legend-card-era">1994 – 2010</span>
+            </div>
+          </div>
+          <div class="legend-card-body">
+            <div class="legend-stats-strip">
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">741</div>
+                <div class="legend-stat-lbl">Matches (Rec)</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">323</div>
+                <div class="legend-stat-lbl">Goals</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">3x</div>
+                <div class="legend-stat-lbl">UCL Titles</div>
+              </div>
+            </div>
+            <p class="legend-snippet">
+              The record holder for most appearances in Real Madrid history. The heart and soul of Madridismo, scoring in two European Cup finals.
+            </p>
+            <div class="legend-card-footer">
+              <div class="legend-trophy-summary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                16 Major Titles
+              </div>
+              <span class="legend-read-more">View Profile →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Iker Casillas -->
+        <div class="legend-card" data-position="goalkeeper" data-legend-id="casillas">
+          <div class="legend-card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Iker_Casillas_2014.jpg" alt="Iker Casillas" class="legend-avatar-img">
+            <div class="legend-card-gradient">
+              <span class="legend-role-badge">Goalkeeper • "San Iker"</span>
+              <h3 class="legend-card-name">Iker Casillas</h3>
+              <span class="legend-card-era">1999 – 2015</span>
+            </div>
+          </div>
+          <div class="legend-card-body">
+            <div class="legend-stats-strip">
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">725</div>
+                <div class="legend-stat-lbl">Matches</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">264</div>
+                <div class="legend-stat-lbl">Clean Sheets</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">3x</div>
+                <div class="legend-stat-lbl">UCL Titles</div>
+              </div>
+            </div>
+            <p class="legend-snippet">
+              A goalkeeper of miracles. Debut at 18, won the Champions League that year, and spent 16 seasons protecting the white net as captain.
+            </p>
+            <div class="legend-card-footer">
+              <div class="legend-trophy-summary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                19 Major Titles
+              </div>
+              <span class="legend-read-more">View Profile →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Luka Modrić -->
+        <div class="legend-card" data-position="midfielder" data-legend-id="modric">
+          <div class="legend-card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/ISL-HRV_%287%29.jpg" alt="Luka Modrić" class="legend-avatar-img">
+            <div class="legend-card-gradient">
+              <span class="legend-role-badge">Midfielder • #10</span>
+              <h3 class="legend-card-name">Luka Modrić</h3>
+              <span class="legend-card-era">2012 – Present</span>
+            </div>
+          </div>
+          <div class="legend-card-body">
+            <div class="legend-stats-strip">
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">545+</div>
+                <div class="legend-stat-lbl">Matches</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">6x</div>
+                <div class="legend-stat-lbl">UCL Titles</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">27</div>
+                <div class="legend-stat-lbl">Trophies (Rec)</div>
+              </div>
+            </div>
+            <p class="legend-snippet">
+              The joint most decorated player in Real Madrid history. 2018 Ballon d'Or winner and maestro of six Champions League crowns.
+            </p>
+            <div class="legend-card-footer">
+              <div class="legend-trophy-summary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                27 Titles (Ballon d'Or 2018)
+              </div>
+              <span class="legend-read-more">View Profile →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Ferenc Puskás -->
+        <div class="legend-card" data-position="forward" data-legend-id="puskas">
+          <div class="legend-card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Ferenc_Puskas_1960.jpg" alt="Ferenc Puskás" class="legend-avatar-img">
+            <div class="legend-card-gradient">
+              <span class="legend-role-badge">Forward • "The Galloping Major"</span>
+              <h3 class="legend-card-name">Ferenc Puskás</h3>
+              <span class="legend-card-era">1958 – 1966</span>
+            </div>
+          </div>
+          <div class="legend-card-body">
+            <div class="legend-stats-strip">
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">242</div>
+                <div class="legend-stat-lbl">Goals</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">262</div>
+                <div class="legend-stat-lbl">Matches</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">3x</div>
+                <div class="legend-stat-lbl">UCL Titles</div>
+              </div>
+            </div>
+            <p class="legend-snippet">
+              The golden cannon. Scored 4 goals in the legendary 7-3 European Cup final against Frankfurt in 1960. FIFA's goal of the year award bears his name.
+            </p>
+            <div class="legend-card-footer">
+              <div class="legend-trophy-summary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                10 Major Titles
+              </div>
+              <span class="legend-read-more">View Profile →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Sergio Ramos -->
+        <div class="legend-card" data-position="defender" data-legend-id="ramos">
+          <div class="legend-card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Russia_vs._Spain_%2810%29.jpg" alt="Sergio Ramos" class="legend-avatar-img">
+            <div class="legend-card-gradient">
+              <span class="legend-role-badge">Defender • #4 Hero</span>
+              <h3 class="legend-card-name">Sergio Ramos</h3>
+              <span class="legend-card-era">2005 – 2021</span>
+            </div>
+          </div>
+          <div class="legend-card-body">
+            <div class="legend-stats-strip">
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">671</div>
+                <div class="legend-stat-lbl">Matches</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">101</div>
+                <div class="legend-stat-lbl">Goals</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">4x</div>
+                <div class="legend-stat-lbl">UCL Titles</div>
+              </div>
+            </div>
+            <p class="legend-snippet">
+              The 92:48 header in Lisbon that unlocked La Décima. A warrior captain who scored 101 goals as a defender and conquered four Champions Leagues.
+            </p>
+            <div class="legend-card-footer">
+              <div class="legend-trophy-summary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                22 Major Titles
+              </div>
+              <span class="legend-read-more">View Profile →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Paco Gento -->
+        <div class="legend-card" data-position="forward" data-legend-id="gento">
+          <div class="legend-card-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Paco_Gento_1960.jpg" alt="Paco Gento" class="legend-avatar-img">
+            <div class="legend-card-gradient">
+              <span class="legend-role-badge">Winger • Honorary President</span>
+              <h3 class="legend-card-name">Paco Gento</h3>
+              <span class="legend-card-era">1953 – 1971</span>
+            </div>
+          </div>
+          <div class="legend-card-body">
+            <div class="legend-stats-strip">
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">600</div>
+                <div class="legend-stat-lbl">Matches</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">6x</div>
+                <div class="legend-stat-lbl">UCL (Record)</div>
+              </div>
+              <div class="legend-stat-col">
+                <div class="legend-stat-val">12x</div>
+                <div class="legend-stat-lbl">La Liga Titles</div>
+              </div>
+            </div>
+            <p class="legend-snippet">
+              The only footballer in the entire history of the world to win 6 European Cups. "La Galerna del Cantábrico" remains unmatched across modern football.
+            </p>
+            <div class="legend-card-footer">
+              <div class="legend-trophy-summary">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2h7.6l-6 4.8 2.4 7.2-6.4-4.8-6.4 4.8 2.4-7.2-6-4.8h7.6z"/></svg>
+                24 Major Titles (World Record)
+              </div>
+              <span class="legend-read-more">View Profile →</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       HISTORY SECTION (INTERACTIVE REGAL CHRONICLE)
+       ======================================================================== -->
+  <section class="history-section" id="history">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          The Regal Chronicle
+        </span>
+        <h2 class="section-title">122+ Years of <span class="gold-accent">European Supremacy</span></h2>
+        <p class="section-desc">
+          Follow the defining milestones that transformed Madrid Foot-Ball Club into the undisputed Kings of Europe.
+        </p>
+      </div>
+
+      <!-- History Era Selector -->
+      <div class="history-era-selector">
+        <button class="filter-btn history-filter-btn active" data-era="all">Complete Timeline</button>
+        <button class="filter-btn history-filter-btn" data-era="origins">Origins & Royal Crown (1902-1947)</button>
+        <button class="filter-btn history-filter-btn" data-era="golden">The Golden 50s & Yé-yé (1955-1966)</button>
+        <button class="filter-btn history-filter-btn" data-era="galacticos">Septima & Galácticos (1998-2006)</button>
+        <button class="filter-btn history-filter-btn" data-era="decima">Decima, Three-Peat & 15th (2014-Now)</button>
+      </div>
+
+      <!-- Timeline Blocks -->
+      <div class="timeline-container">
+        <!-- 1902 -->
+        <div class="timeline-block" data-era="origins">
+          <div class="timeline-marker">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-year-tag">March 6, 1902</span>
+            <h3 class="timeline-title">The Foundation & The Pure White Shirt</h3>
+            <p class="timeline-desc">
+              Madrid Foot-Ball Club was officially established by Juan Padrós and enthusiastic academicians. The club chose the immaculate, pure all-white strip inspired by London's legendary amateur club, Corinthian FC, establishing a look that would conquer the sporting world.
+            </p>
+            <div class="timeline-highlight-box">
+              Milestone: First Spanish Copa title achieved in 1905, followed by four consecutive cup titles.
+            </div>
+          </div>
+        </div>
+
+        <!-- 1920 -->
+        <div class="timeline-block" data-era="origins">
+          <div class="timeline-marker">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-year-tag">June 29, 1920</span>
+            <h3 class="timeline-title">The Royal Crown Bestowed ("Real")</h3>
+            <p class="timeline-desc">
+              King Alfonso XIII granted the club the royal title "Real" (Royal) in recognition of its athletic distinction and contribution to the capital. The iconic royal crown was placed on top of the Madrid circular crest, forever cementing its identity.
+            </p>
+            <div class="timeline-highlight-box">
+              Crest Update: The royal crown and purple castilian sash permanently integrated.
+            </div>
+          </div>
+        </div>
+
+        <!-- 1947 -->
+        <div class="timeline-block" data-era="origins">
+          <div class="timeline-marker">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-year-tag">December 14, 1947</span>
+            <h3 class="timeline-title">The Construction of Estadio Santiago Bernabéu</h3>
+            <p class="timeline-desc">
+              President Santiago Bernabéu envisioned a cathedral for modern football on Chamartín. Overcoming immense post-war skepticism, the stadium was inaugurated with a capacity exceeding 100,000, establishing the economic foundation to recruit the world's greatest players.
+            </p>
+            <div class="timeline-highlight-box">
+              Visionary Leadership: Bernabéu served as president for 35 transformative years.
+            </div>
+          </div>
+        </div>
+
+        <!-- 1955-1960 -->
+        <div class="timeline-block" data-era="golden">
+          <div class="timeline-marker">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-year-tag">1955 – 1960</span>
+            <h3 class="timeline-title">The Golden Quintuple (5 European Cups in a Row)</h3>
+            <p class="timeline-desc">
+              Real Madrid helped birth the European Cup and promptly dominated it. Led by Alfredo Di Stéfano, Ferenc Puskás, Raymond Kopa, and Paco Gento, the club won the first five consecutive European Cups, culminating in the 7-3 masterpiece against Eintracht Frankfurt at Hampden Park before 127,000 spectators.
+            </p>
+            <div class="timeline-highlight-box">
+              Historic Feat: The only club in football history to win five consecutive European Cups.
+            </div>
+          </div>
+        </div>
+
+        <!-- 1998 -->
+        <div class="timeline-block" data-era="galacticos">
+          <div class="timeline-marker">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-year-tag">May 20, 1998</span>
+            <h3 class="timeline-title">La Séptima: Reclaiming Europe After 32 Years</h3>
+            <p class="timeline-desc">
+              After a 32-year drought, Real Madrid returned to the pinnacle of Europe. In Amsterdam, against the heavily favored Juventus of Zidane and Del Piero, Predrag Mijatović struck in the 66th minute to deliver the long-awaited 7th European Cup.
+            </p>
+            <div class="timeline-highlight-box">
+              Turning Point: Launched the modern era of European dominance (8 UCLs in 26 years).
+            </div>
+          </div>
+        </div>
+
+        <!-- 2002 -->
+        <div class="timeline-block" data-era="galacticos">
+          <div class="timeline-marker">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-year-tag">May 15, 2002</span>
+            <h3 class="timeline-title">La Novena & Zidane's Volley of the Gods</h3>
+            <p class="timeline-desc">
+              In Glasgow, Zinedine Zidane produced arguably the single most aesthetic goal ever scored in a football final: a left-footed volley dropped from the Scottish sky directly into the top corner. Young Iker Casillas produced heroics in the dying minutes to seal Madrid's 9th crown.
+            </p>
+            <div class="timeline-highlight-box">
+              Centenary Glory: Real Madrid celebrated its 100th anniversary as European Champions.
+            </div>
+          </div>
+        </div>
+
+        <!-- 2014 -->
+        <div class="timeline-block" data-era="decima">
+          <div class="timeline-marker">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-year-tag">May 24, 2014</span>
+            <h3 class="timeline-title">La Décima & Ramos at 92:48 in Lisbon</h3>
+            <p class="timeline-desc">
+              Trailing 0-1 to rivals Atlético Madrid in the 93rd minute of the final, Sergio Ramos rose into Lisbon lore to head home Luka Modrić's corner at 92:48. Madrid ran riot in extra time (4-1) under Carlo Ancelotti to finally seize the obsessive dream of La Décima.
+            </p>
+            <div class="timeline-highlight-box">
+              Legendary Quote: "Hasta el final, vamos Real!" became the immortal rallying cry.
+            </div>
+          </div>
+        </div>
+
+        <!-- 2016-2018 -->
+        <div class="timeline-block" data-era="decima">
+          <div class="timeline-marker">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-year-tag">2016 – 2018</span>
+            <h3 class="timeline-title">The Historic Modern Champions League Three-Peat</h3>
+            <p class="timeline-desc">
+              Under manager Zinedine Zidane and spearhead Cristiano Ronaldo, Real Madrid broke modern football's greatest curse. They became the only club in the UEFA Champions League era to defend the trophy, winning three consecutive titles in Milan (2016), Cardiff (2017), and Kyiv (2018).
+            </p>
+            <div class="timeline-highlight-box">
+              Unrivaled Dynasty: 4 European titles in 5 years (2014, 2016, 2017, 2018).
+            </div>
+          </div>
+        </div>
+
+        <!-- 2024 -->
+        <div class="timeline-block" data-era="decima">
+          <div class="timeline-marker">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div class="timeline-card">
+            <span class="timeline-year-tag">June 1, 2024</span>
+            <h3 class="timeline-title">La Decimoquinta (15th) at Wembley & The New Bernabéu</h3>
+            <p class="timeline-desc">
+              At Wembley Stadium, Dani Carvajal and Vinícius Jr. struck against Borussia Dortmund to capture European Cup number 15. Combined with the grand unveiling of the futuristic, retractable-roof Santiago Bernabéu and the arrival of Kylian Mbappé alongside Jude Bellingham, a new golden dynasty takes the world stage.
+            </p>
+            <div class="timeline-highlight-box">
+              Current Epoch: 15 European Cups, 36 La Ligas, leading European football into 2025 and beyond.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       UPCOMING FIXTURES & MATCH CENTER
+       ======================================================================== -->
+  <section class="fixtures-section" id="fixtures">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          Match Center
+        </span>
+        <h2 class="section-title">Battle for the <span class="gold-accent">Silverware</span></h2>
+        <p class="section-desc">
+          Stay synchronized with Real Madrid fixtures across La Liga, the UEFA Champions League, and the Copa del Rey.
+        </p>
+      </div>
+
+      <!-- Match Center Navigation Tabs -->
+      <div class="match-center-tabs">
+        <button class="match-tab-btn active" data-panel="panelUpcoming">Upcoming Matches</button>
+        <button class="match-tab-btn" data-panel="panelResults">Recent Form</button>
+        <button class="match-tab-btn" data-panel="panelStandings">La Liga Table</button>
+      </div>
+
+      <!-- PANEL 1: UPCOMING FIXTURES -->
+      <div class="match-content-panel active" id="panelUpcoming">
+        <div class="fixtures-grid">
+          <!-- Fixture 1: El Clásico -->
+          <div class="fixture-card">
+            <div class="fixture-top-bar">
+              <span class="fixture-comp-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                La Liga • Matchday 11
+              </span>
+              <span class="fixture-date-tag">Saturday • 21:00 CET</span>
+            </div>
+            <div class="fixture-teams-clash">
+              <div class="fixture-team-block">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="fixture-team-logo">
+                <div class="fixture-team-title">Real Madrid</div>
+              </div>
+              <div class="fixture-mid-info">
+                <div class="fixture-kickoff-time">VS</div>
+                <div class="fixture-venue-text">Santiago Bernabéu</div>
+              </div>
+              <div class="fixture-team-block">
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="FC Barcelona" class="fixture-team-logo" onerror="this.onerror=null; this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FC_Barcelona_%28crest%29.svg/100px-FC_Barcelona_%28crest%29.svg.png';">
+                <div class="fixture-team-title">FC Barcelona</div>
+              </div>
+            </div>
+            <div class="fixture-bottom-bar">
+              <span class="fixture-h2h-stat">Form: <strong>W - W - W - W - D</strong></span>
+              <button class="btn-predict" data-match="El Clásico: Real Madrid vs Barcelona">
+                🔮 Simulate Predictor
+              </button>
+            </div>
+          </div>
+
+          <!-- Fixture 2: UEFA Champions League vs Dortmund -->
+          <div class="fixture-card">
+            <div class="fixture-top-bar">
+              <span class="fixture-comp-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                Champions League • League Phase
+              </span>
+              <span class="fixture-date-tag">Tuesday • 21:00 CET</span>
+            </div>
+            <div class="fixture-teams-clash">
+              <div class="fixture-team-block">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="fixture-team-logo">
+                <div class="fixture-team-title">Real Madrid</div>
+              </div>
+              <div class="fixture-mid-info">
+                <div class="fixture-kickoff-time">VS</div>
+                <div class="fixture-venue-text">Santiago Bernabéu</div>
+              </div>
+              <div class="fixture-team-block">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg" alt="Borussia Dortmund" class="fixture-team-logo">
+                <div class="fixture-team-title">B. Dortmund</div>
+              </div>
+            </div>
+            <div class="fixture-bottom-bar">
+              <span class="fixture-h2h-stat">Rematch: <strong>2024 UCL Final</strong></span>
+              <button class="btn-predict" data-match="UCL: Real Madrid vs Borussia Dortmund">
+                🔮 Simulate Predictor
+              </button>
+            </div>
+          </div>
+
+          <!-- Fixture 3: Madrid Derby vs Atlético -->
+          <div class="fixture-card">
+            <div class="fixture-top-bar">
+              <span class="fixture-comp-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                La Liga • El Derbi Madrileño
+              </span>
+              <span class="fixture-date-tag">Sunday • 21:00 CET</span>
+            </div>
+            <div class="fixture-teams-clash">
+              <div class="fixture-team-block">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg" alt="Atlético Madrid" class="fixture-team-logo">
+                <div class="fixture-team-title">Atlético Madrid</div>
+              </div>
+              <div class="fixture-mid-info">
+                <div class="fixture-kickoff-time">VS</div>
+                <div class="fixture-venue-text">Metropolitano</div>
+              </div>
+              <div class="fixture-team-block">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="fixture-team-logo">
+                <div class="fixture-team-title">Real Madrid</div>
+              </div>
+            </div>
+            <div class="fixture-bottom-bar">
+              <span class="fixture-h2h-stat">Derby Clash: <strong>Away Leg</strong></span>
+              <button class="btn-predict" data-match="Derbi: Atletico vs Real Madrid">
+                🔮 Simulate Predictor
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 2: RECENT FORM -->
+      <div class="match-content-panel" id="panelResults">
+        <div class="fixtures-grid">
+          <div class="fixture-card">
+            <div class="fixture-top-bar">
+              <span class="fixture-comp-pill">Champions League</span>
+              <span class="fixture-date-tag" style="color:#10b981; font-weight:700;">WIN</span>
+            </div>
+            <div class="fixture-teams-clash">
+              <div class="fixture-team-block">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="fixture-team-logo">
+                <div class="fixture-team-title">Real Madrid</div>
+              </div>
+              <div class="fixture-mid-info">
+                <div class="fixture-kickoff-time" style="background:#0a0b0e; color:#ffffff;">3 – 1</div>
+                <div class="fixture-venue-text">Mbappé 46', Rüdiger 83', Endrick 95'</div>
+              </div>
+              <div class="fixture-team-block">
+                <div class="fixture-team-title" style="margin-top:1.2rem;">VfB Stuttgart</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fixture-card">
+            <div class="fixture-top-bar">
+              <span class="fixture-comp-pill">La Liga</span>
+              <span class="fixture-date-tag" style="color:#10b981; font-weight:700;">WIN</span>
+            </div>
+            <div class="fixture-teams-clash">
+              <div class="fixture-team-block">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="fixture-team-logo">
+                <div class="fixture-team-title">Real Madrid</div>
+              </div>
+              <div class="fixture-mid-info">
+                <div class="fixture-kickoff-time" style="background:#0a0b0e; color:#ffffff;">4 – 1</div>
+                <div class="fixture-venue-text">Carvajal 58', Rodrygo 75', Vinícius 78', Mbappé 90'</div>
+              </div>
+              <div class="fixture-team-block">
+                <div class="fixture-team-title" style="margin-top:1.2rem;">RCD Espanyol</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fixture-card">
+            <div class="fixture-top-bar">
+              <span class="fixture-comp-pill">UEFA Super Cup</span>
+              <span class="fixture-date-tag" style="color:var(--gold-dark); font-weight:700;">CHAMPIONS</span>
+            </div>
+            <div class="fixture-teams-clash">
+              <div class="fixture-team-block">
+                <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="fixture-team-logo">
+                <div class="fixture-team-title">Real Madrid</div>
+              </div>
+              <div class="fixture-mid-info">
+                <div class="fixture-kickoff-time" style="background:#0a0b0e; color:#ffffff;">2 – 0</div>
+                <div class="fixture-venue-text">Valverde 59', Mbappé 68'</div>
+              </div>
+              <div class="fixture-team-block">
+                <div class="fixture-team-title" style="margin-top:1.2rem;">Atalanta BC</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 3: LA LIGA TABLE STANDINGS -->
+      <div class="match-content-panel" id="panelStandings">
+        <div class="standings-table-wrap">
+          <table class="standings-table">
+            <thead>
+              <tr>
+                <th>Pos</th>
+                <th>Club</th>
+                <th>Played</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>GD</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="highlight-real">
+                <td><strong>1</strong></td>
+                <td>
+                  <div class="table-team-cell">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="table-team-logo">
+                    <strong>Real Madrid C.F. (Champions)</strong>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>8</td>
+                <td>2</td>
+                <td>0</td>
+                <td>+16</td>
+                <td><strong>26</strong></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>
+                  <div class="table-team-cell">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="Barcelona" class="table-team-logo">
+                    <span>FC Barcelona</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>8</td>
+                <td>0</td>
+                <td>2</td>
+                <td>+15</td>
+                <td><strong>24</strong></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>
+                  <div class="table-team-cell">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg" alt="Atletico Madrid" class="table-team-logo">
+                    <span>Atlético Madrid</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>6</td>
+                <td>4</td>
+                <td>0</td>
+                <td>+10</td>
+                <td><strong>22</strong></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>
+                  <div class="table-team-cell">
+                    <span>Villarreal CF</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>6</td>
+                <td>2</td>
+                <td>2</td>
+                <td>+4</td>
+                <td><strong>20</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FAN ZONE & REAL MADRID ANTHEM
+       ======================================================================== -->
+  <section class="fanzone-section" id="fanzone">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          Madridista Fan Zone
+        </span>
+        <h2 class="section-title">The Spirit of <span class="gold-accent">Chamartín</span></h2>
+        <p class="section-desc">
+          Immerse yourself in the anthem that echoes across 85,000 voices at the Santiago Bernabéu and test your historical knowledge.
+        </p>
+      </div>
+
+      <div class="fanzone-grid">
+        <!-- Interactive Anthem Player -->
+        <div class="fanzone-card">
+          <h3 class="fanzone-card-title">Club Anthem: "¡Hala Madrid y nada más!"</h3>
+          <p class="fanzone-card-desc">
+            Composed by RedOne and Manuel Jabois for the historic La Décima triumph in 2014, recorded by the squad and sung with pride by over 500 million fans worldwide.
+          </p>
+
+          <div class="anthem-player-box">
+            <div class="anthem-header-row">
+              <div>
+                <div class="anthem-name-title">Hala Madrid Fanfare</div>
+                <div class="anthem-author">Orchestral Brass Synthesis • Web Audio API</div>
+              </div>
+              <button class="anthem-play-large-btn" id="anthemMainBtn" title="Play Fanfare Melody">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </button>
+            </div>
+
+            <div class="anthem-lyrics-box">
+              <p><strong>"Historia que tú hiciste, historia por hacer..."</strong></p>
+              <p style="margin-top:0.3rem;"><em>(History you have made, history still to make, because no one can resist your desire to win! The stars come out in the Madrid sky, Madrid and nothing more!)</em></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Fan Quiz -->
+        <div class="fanzone-card">
+          <h3 class="fanzone-card-title">Madridista Knowledge Challenge</h3>
+          <p class="fanzone-card-desc">
+            Are you a true socio of the club? Answer the interactive questions and see how your Real Madrid history ranks.
+          </p>
+
+          <div id="fanQuizWidget">
+            <div class="quiz-question-text" id="quizQuestionText">Loading question...</div>
+            <div class="quiz-options-list" id="quizOptionsContainer"></div>
+            <div class="quiz-feedback" id="quizFeedback"></div>
+            <button class="btn-primary" id="quizNextBtn" style="display:none; margin-top:1rem; padding:0.65rem 1.4rem; font-size:0.85rem;">
+              Next Question →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       MODAL 1: TROPHY DETAILS INSPECTION MODAL
+       ======================================================================== -->
+  <div class="modal-backdrop" id="trophyModalBackdrop">
+    <div class="modal-sheet">
+      <button class="modal-close-btn" id="trophyModalClose" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="section-tag" id="modalTrophyTag">European Glories</span>
+      <h2 class="section-title" id="modalTrophyTitle" style="font-size:2rem; margin-top:0.5rem; margin-bottom:0.4rem;">UEFA Champions League</h2>
+      <div id="modalTrophyCount" style="font-family:var(--font-display); font-size:1.6rem; color:var(--gold-dark); font-weight:800; margin-bottom:1rem;">15 TITLES</div>
+      <p id="modalTrophyDesc" style="color:var(--text-secondary); line-height:1.6; margin-bottom:1.5rem;"></p>
+
+      <h4 style="font-family:var(--font-heading); font-size:0.95rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; margin-bottom:0.6rem; color:var(--text-primary);">Winning Years</h4>
+      <p id="modalTrophyYears" style="background:var(--bg-secondary); padding:0.8rem 1rem; border-radius:var(--radius-sm); font-size:0.9rem; line-height:1.6; font-weight:600; color:var(--text-primary); margin-bottom:1.5rem;"></p>
+
+      <h4 style="font-family:var(--font-heading); font-size:0.95rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; margin-bottom:0.8rem; color:var(--text-primary);">Iconic Finals & Historic Moments</h4>
+      <div id="modalTrophyHighlights"></div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 2: LEGEND BIOGRAPHY MODAL
+       ======================================================================== -->
+  <div class="modal-backdrop" id="legendModalBackdrop">
+    <div class="modal-sheet">
+      <button class="modal-close-btn" id="legendModalClose" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="section-tag" id="modalLegendRole">Forward</span>
+      <h2 class="section-title" id="modalLegendName" style="font-size:2.2rem; margin-top:0.5rem; margin-bottom:0.3rem;">Cristiano Ronaldo</h2>
+      <div id="modalLegendEra" style="color:var(--gold-dark); font-weight:700; font-size:0.95rem; margin-bottom:1.2rem;"></div>
+
+      <div style="font-style:italic; border-left:3px solid var(--gold-primary); padding-left:1rem; margin-bottom:1.5rem; color:var(--text-primary); font-size:1.02rem;" id="modalLegendQuote"></div>
+
+      <h4 style="font-family:var(--font-heading); font-size:0.95rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; margin-bottom:0.6rem; color:var(--text-primary);">Career Biography</h4>
+      <p id="modalLegendBio" style="color:var(--text-secondary); line-height:1.7; font-size:0.95rem; margin-bottom:1.5rem;"></p>
+
+      <h4 style="font-family:var(--font-heading); font-size:0.95rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; margin-bottom:0.6rem; color:var(--text-primary);">Major Honors Won with Real Madrid</h4>
+      <p id="modalLegendTrophies" style="background:var(--bg-secondary); padding:0.8rem 1rem; border-radius:var(--radius-sm); font-size:0.9rem; line-height:1.6; font-weight:600; color:var(--text-primary);"></p>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand -->
+        <div>
+          <div class="brand-logo" style="margin-bottom:1.2rem;">
+            <div class="crest-icon-wrap" style="width:38px; height:38px;">
+              <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid" class="crest-img">
+            </div>
+            <div class="brand-text">
+              <span class="footer-brand-title">REAL MADRID C.F.</span>
+            </div>
+          </div>
+          <p class="footer-brand-desc">
+            The greatest football institution in history. FIFA Best Club of the 20th Century and 15-time Champions of Europe.
+          </p>
+          <div class="footer-social-row">
+            <a href="https://x.com/realmadrid" target="_blank" rel="noopener" class="footer-social-icon" aria-label="Twitter">X</a>
+            <a href="https://instagram.com/realmadrid" target="_blank" rel="noopener" class="footer-social-icon" aria-label="Instagram">IG</a>
+            <a href="https://youtube.com/realmadrid" target="_blank" rel="noopener" class="footer-social-icon" aria-label="YouTube">YT</a>
+            <a href="https://tiktok.com/@realmadrid" target="_blank" rel="noopener" class="footer-social-icon" aria-label="TikTok">TT</a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <h4 class="footer-col-title">Club Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#achievements">Achievements Showcase</a></li>
+            <li><a href="#legends">Legends Hall of Fame</a></li>
+            <li><a href="#history">Club History (1902–2024)</a></li>
+            <li><a href="#fixtures">Upcoming Fixtures</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Honor Roll -->
+        <div>
+          <h4 class="footer-col-title">Palmarés</h4>
+          <ul class="footer-links-list">
+            <li><a href="#achievements">15 European Cups</a></li>
+            <li><a href="#achievements">36 La Liga Crowns</a></li>
+            <li><a href="#achievements">20 Copas del Rey</a></li>
+            <li><a href="#achievements">8 World Club Titles</a></li>
+            <li><a href="#achievements">FIFA Club of the Century</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Santiago Bernabéu -->
+        <div>
+          <h4 class="footer-col-title">Santiago Bernabéu</h4>
+          <p style="font-size:0.88rem; color:#94a3b8; line-height:1.6; margin-bottom:1rem;">
+            Avenida de Concha Espina 1, 28036 Madrid, Spain.<br>
+            Capacity: 84,744 spectators.<br>
+            Featuring 360° halo video scoreboard and automated retractable pitch.
+          </p>
+          <span style="display:inline-block; font-family:var(--font-heading); font-size:0.8rem; font-weight:700; color:var(--gold-primary);">
+            ¡Hasta El Final, Vamos Real!
+          </span>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span>© 2024–2026 Real Madrid Club de Fútbol Themed Experience. All rights reserved.</span>
+        <span>Designed with White & Black Regal Aesthetics for Madridistas worldwide.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
